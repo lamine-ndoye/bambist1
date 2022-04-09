@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="FR">
+  <head>
+ 	 <title>Formullaire</title>  
+  	 <meta charset="utf-8">
+  	<link rel="stylesheet" href="./styles.css">
+  </head>
+ 
+    <div class="div0">
+        
+               <!-- <img SRC=" assetes/facebook.png" align= "right" />
+                <img SRC=" assetes/youtube.png" align= "right"/>
+                <img SRC=" assetes/snapchat.png" align= "right" />
+                <img SRC=" assetes/instagram.png" align= "right"/>
+                <img SRC="assetes/gmail.png" align= "right" /--> 
+        
+        <header ><h1><strong><u>FORMULAIRE D'INSCRIPTION</u></strong></h1></header> <br> <br>
+    </div>
+
+
+  <body>
+ 
+       <div class="div2"></div>
+       <form name="formulaire" onsubmit="return tester()">
+            <div class="div1">
+                <tr>
+                <tr><td>
+                    <label for="Prenom ">*Prenom :&emsp;&emsp;&emsp;&emsp;</label>
+                    <input type="text"  placeholder="Prenom"><br> <br>
+                </td></tr>
+                    <tr>
+                    <td>
+                        <label for="name"> *Nom:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                        <input type="text" name="nom" placeholder="Nom"/><br> <br>
+                    </td>
+                    </tr>
+                        <tr><td>
+                             <label for="start"> *Age :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                             <input type="text" name="Age" id="start" placeholder="votre age svp!"><br> <br>
+                        </td></tr>
+
+                   
+                        <tr><td>
+                            <label for="Emailt"> *Email :&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                            <input type="Email" name="Email" id="Email" placeholder="Email" ><br> <br>
+                        </td></tr>
+
+                        <tr><td>
+                            <label for="start"  size="50%">*Date d'insciption:</label>
+                            <input type="date" >  <br> <br>
+                        </td></tr>
+                        <tr><td>
+                            <td>
+                                <label for="texte">*Sexe</label>
+                                <input type="radio" id="sexe" placeholder="sexe">Masculin
+                                <input type="radio" id="sexe" placeholder="sexe">Feminin <br> <br>
+                            </td>
+                        </td></tr>
+                        <tr><td>
+                            <label for="boutton"></label>
+                            <input type="submit" onclick="tester()" id="boutton" value="Valider"> 
+                        </td></tr>
+                        
+                        <tr><td>
+                            <label for="boutton"  ></label>
+                            <input class="button" type="submit"  id="boutton" value="S'inscrire" align="right" >
+                        </td></tr>
+                </td></tr>
+                       
+                
+            </div>
+        </form>
+         <!-- <textarea name="votre message" rows="5"cols="30" onclick="alert">
+                            
+                        </textarea><br> <br>-->
+    
+   </body> 
+<html>
+
+<script type="text/javascript">
+    function tester()
+    {
+        var Nom=document.forms["formulaie"]["nom"];
+        if (Nom.value=="")
+        {
+            alert("les champs en etoile sont obligatoires.");
+            Nom.focus();
+            return false;
+        }
+            
+        
+    }
+</script>

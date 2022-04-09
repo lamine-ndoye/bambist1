@@ -1,0 +1,50 @@
+body{
+    font-family: "verdana gothic",sans-serif;     /*permet d'appliquer une police a notre body*/
+    background-color: whitesmoke;
+    background-image: url(assetes/images.jpg);
+    background-size: cover;
+    opacity: 0,8;
+
+}
+/*bloc de l'entete*/
+.div0{
+   width: 100%;
+   height: 60px;
+   border-radius: 20px;
+   text-align: center;
+   text-shadow: -2px -3px 5px #3a979e;   /*permet de donner une ombre a notre police d'ecriture*/
+   background-color: rgb(216, 224, 222);
+   text-decoration-color: #f3f4f6;
+   color: #0a9185;
+   border: 2px solid rgb(221, 229, 230);
+   font-size: 100%;       /*permet d'ajuster la taille de la police*/
+   font-style: oblique;   /*permet d'appliquer une style (oblique,italic,....) a notre police police*/
+   font-weight: lighter;    /*permet d'ajuster l'epaisseure de la police*/
+   opacity: 0,9;
+}
+
+/*bloc des champs du formulaire*/
+.div1{
+    width: 40%;
+    height: 150%;
+    border-radius: 20px;
+    text-align: left;
+    background-color: rgba(223, 233, 231, 0.986);
+    background-size: cover;
+    padding: block 3px;
+    color:#8f8a7e ;
+    border: 1px solid hsl(75, 14%, 95%);
+    font-weight: 700;
+    line-height: 250%;    /*permet de gerer l'espace entre les les lignes*/
+    letter-spacing: 2px;
+    opacity: 0,9;
+ }
+ /*l'espace entre les deux blocs*/
+ .div2{
+     padding-block: 1%;
+     width: 100%;
+     height: 50pt;
+     
+ }
+ 
+ 
